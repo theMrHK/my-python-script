@@ -1,4 +1,3 @@
-pip install requests python-telegram-bot pytz
 import requests
 from telegram import Bot
 from datetime import datetime

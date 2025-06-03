@@ -1,0 +1,14 @@
+name: Run Every 6 Hours
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # هر ۶ ساعت
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    - run: pip install -r requirements.txt
+    - run: python main_script.py

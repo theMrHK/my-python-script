@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = "7096503147:AAHSzfTa27fTpFiuJ2X7_jKv0570t32N7Hw"
+TOKEN = " "
 CHANNEL_ID = "@Mazeruni_Xaver"
 
 class WikipediaFetcher:
